@@ -1,0 +1,29 @@
+:
+TAG: tag code, name
+is tagged as, 0N PRODUCT, 0N TAG
+:
+
+CATEGORY: category code, category name, subtitle, picture, home order
+related to, 01 PRODUCT, 0N CATEGORY
+PRODUCT: product code, product name, description, picture, price, rate, status
+made, 0N BRAND, 11 PRODUCT
+
+:
+:
+is a, 0N TYPE, 11 PRODUCT
+BRAND: brand code, brand name
+
+:
+:
+TYPE: type code, type name
+:
+
+:
+:
+:
+:
+
+:
+:
+:
+APP_USER: user code, email, password, firstname, lastname, role, status
